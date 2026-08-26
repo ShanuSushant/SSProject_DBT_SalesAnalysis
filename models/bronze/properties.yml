@@ -1,0 +1,12 @@
+## Property Level configuration
+
+version: 2
+
+models:
+  - name: bronze_date
+    config: 
+      materialized: view
+
+  - name: bronze_product
+    config: 
+      materialized: view
